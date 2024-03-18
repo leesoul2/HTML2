@@ -1,0 +1,50 @@
+header{
+    width: 970px;
+    overflow: hidden;
+}
+
+.dog {
+    margin: 10px;
+    padding: 0;
+    /* width: 605px;
+    height: 35px; */
+    float: left;
+}
+
+.cat {
+    
+    margin: 10px;
+    padding: 0;
+    /* width: 605px;
+    height: 35px; */
+    float: left;
+}
+#cat-breed{
+    width: 256px;
+    padding: 25px;
+    
+    background-color: bisque;
+}
+section{
+    height: 974px;
+}
+.picture{
+    border-radius: 20px;
+
+}
+footer div a{
+    float: left;
+    padding: 10px;
+    
+}
+footer > div .icon{
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+}
+footer{
+    width: 678px;
+    padding: 20px 25px;
+    clear:both;
+    /* margin-top: 100px; */
+}
