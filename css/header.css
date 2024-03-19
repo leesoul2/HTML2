@@ -1,0 +1,159 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.temporary{
+    width: 976px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.top-adopt-menu{
+    width: 847px;
+    height: auto;
+    padding: 33px;
+    background-color: beige;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+}
+header{
+    text-align: center;
+    overflow: hidden;
+}
+
+.dog{
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    /* width: 605px;
+    height: 35px; */
+}
+.dog-pic{
+    border-radius: 20%;
+    
+}
+section{
+    height: 974px;
+}
+.filter{
+    position: relative;
+    display: flex;
+}
+.protect-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.protect-card:not(:last-child) {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: calc(30% - 10px);
+    width: 299px;
+    height: 349px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 2px 1px 3px #ccc;
+}
+.protect-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: calc(30% - 10px);
+    width: 299px;
+    height: 349px;
+    border-radius: 15px;
+    box-shadow: 2px 1px 3px #ccc;
+}
+
+.situation{
+    font-size: 11px;
+    text-align: center;
+}
+.l-text{
+    font-size: 11px;    
+}
+.d-text{
+    display: block;
+    padding: 0.8rem;
+    font-weight: 600;
+    color: #ccc;
+    font-size: 11px;
+
+}
+.protect-card div .situation{
+    border-radius: 18px;
+    display: inline-block;
+    background-color: darksalmon;
+    width: 35px;
+    padding: 0.2rem 1rem;
+    margin-bottom: 10px;
+    
+} 
+article{
+    display: flex;
+    align-items: center;
+}
+article img{
+    flex: 0 0 auto;
+}
+article div{
+    font-size: 24px;
+}
+article .f-icon{
+    width: 24px;
+    height: 24px;
+}
+.picture{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border-radius: 20px;
+
+}
+footer > div .icon{
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+}
+footer > div {
+    display: inline-block;
+    width: 700px;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+}
+
+.links, .icons {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+
+    
+}
+
+
+.icons img {
+margin: 5px;
+}
+
+
+
+
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 678px;
+    padding: 20px 25px;
+    clear:both;
+    /* margin-top: 100px; */
+}
+header a:hover{
+    border-style: outset;
+}

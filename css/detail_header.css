@@ -1,0 +1,36 @@
+body div .top-protect{
+    display: inline-block;
+    width: 288px;
+    text-align: center;
+    padding: 0.9rem 8rem;
+    background-color: antiquewhite;
+    font-size: 13px;
+    border-radius: 10px 10px 10px 10px;
+}
+.sub-protect{
+    width: 1024px;
+}
+.con1{
+    display: block;
+    width: 992px;
+    padding: 20px 0;
+    border: 1px solid black;
+}
+.picture2{
+    float: left;
+}
+.con1-subtext{
+    width: 700px;
+    
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.picture1{
+    float: right;
+}
+article div{
+    width: 726px;
+
+
+}
