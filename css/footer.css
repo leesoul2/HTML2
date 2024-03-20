@@ -1,0 +1,41 @@
+
+footer > div .icon{
+    float: left;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #ccc;
+}
+footer > div {
+    display: inline-block;
+    width: 700px;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links a {
+    margin-right: 20px; /* 링크 간격 조정 */
+    text-decoration: none;
+    color: #333; /* 링크 색상 설정 */
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.icons {
+    margin-right: 40px;
+}
+.footer{
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px 25px;
+    background-color: #f0f0f0; /* 푸터 배경색 설정 */
+}
+
