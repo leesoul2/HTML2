@@ -1,6 +1,7 @@
 body div .top-protect{
     display: flex;
     gap: 20px;
+    padding: 1.6rem 0px 1.9rem;
 }
 .top-protect{
     display: flex;
@@ -19,6 +20,55 @@ body div .top-protect{
     background-color: antiquewhite;
     
 }
+.center-content-pic{
+    position: relative;
+    display: flex;
+    width: 50%;
+}
+.center-content{
+    display: inline-flex;
+    max-width: 1000px;
+    justify-content: center;
+    padding: 2.4rem 3.6rem;
+    margin: 0 470px;
+    border-top: 1px solid #ccc;
+}
+.text-wrap{
+    display: flex;
+    
+}
+.heart{
+    width: 24px;
+    height: 24px;
+}
+.text-bubble{
+    width: 72%;
+    text-align: center;
+    padding: 1rem 1rem 0.9rem;
+    margin: 0.8rem 0px 1rem;
+    background-color: rgb(193, 222, 233);
+    border-radius: 20px;
+    box-shadow: -2px 3px 5px #ccc;
+}
+h1{
+    border-bottom: 1px solid #ccc;
+
+}
+.dog-detail{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.shelter{
+    border-bottom: 1px solid #ccc;
+    
+}
+.content{
+    max-width: 1000px;
+    margin: 2.5rem auto;
+    justify-content: center;
+    align-items: center;
+
+}
 .picture2{
     display: flex;
     justify-content: center;
@@ -26,7 +76,6 @@ body div .top-protect{
 .con-list{
     display: flex;
     gap: 10px;
-    width: 100%;
     padding: 0.9rem 1rem;
     background-color: yellow;
 }
@@ -51,7 +100,13 @@ h3{
 }
 article{
     display: flex;
-
+    margin-bottom: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 20px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    
 }
 .link:hover{
     color: rgb(226, 201, 117);
@@ -91,15 +146,6 @@ article div{
     font-size: 15px;
     font-weight: bold;
     float: left;
-}
-.content{
-    width: max-content;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgb(201, 201, 201);
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
 }
 .con1 .picture1{
     width: 100%;
