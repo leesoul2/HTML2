@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>입양 메인 페이지</title>
     <!-- [1] 해상도 - 최적해상도1050px 결정 (최대/최소 지원범위-테스트영역) -->
     <!-- [2] content 영역 970px 100%, 배치(중앙,왼쪽) -->
     <!-- [3] reset.css 검토 -  폴더 경로 확정 -->
@@ -13,19 +13,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/adopt.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/CSS/adopt.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
     <!-- [4] project명 또는 core.css / projectname.css 폴더경로 - bootstrap, template 등으로 대체 -->
     <!-- [4] 기본색상 10~15개정도 class 미리 만들어두기 -->
     <!-- [4] 폰트family와 크기 5~7개정도 class 미리 만들어두기 -->
     <!-- [4] button 3개 class 미리 만들어두기 -->
     <!-- [4] a 모양 미리 만들어두기 -->
-    
+
 
 </head>
 
 <body>
-    <div class="top-tag">
+    <div class="top-tag" id="basic">
         <div>유기동물 입양</div>
     </div>
     <div class="temporary">
@@ -46,257 +46,277 @@
                     
                 </header>
             </div>
-            <section>
-                    <div class="filter">
-                        <img class="f-icon" src="/images/free-icon-filter-3106781.png" alt="">
-                        <div>필터</div>
-                        
-                    </div>
-                    <div class="s-wrap-list">
-                        <div class="s-wrap">
-                            <select name="situa" id="situa">
-                                <optgroup label="상태" aria-checked="true"></optgroup>
-                                    <option value="s1">전체</option>
-                                    <option value="s2">보호</option>
-                                    <option value="s3">공고</option>
-                            </select>
-                        </div>
-                        <div class="s-wrap">
-                            <select name="situa" id="situa">
-                                <optgroup label="상태" aria-checked="true"></optgroup>
-                                    <option value="s1">전체</option>
-                                    <option value="s2">보호</option>
-                                    <option value="s3">공고</option>
-                            </select>
-                            
-                        </div>
-                        <div class="s-wrap">
-                            <select name="situa" id="situa">
-                                <optgroup label="상태" aria-checked="true"></optgroup>
-                                    <option value="s1">전체</option>
-                                    <option value="s2">보호</option>
-                                    <option value="s3">공고</option>
-                            </select>
-                            
-                        </div>
-                    </div>
-                    <div class="ex">
-                        <img src="https://dummyimage.com/24x24/000/fff" alt="">
-                        <div class="sub-text-num">2,564</div>
-                        <div> 마리의 아이들이 보호자를 기다리고 있어요.</div>
-                    </div>
-                <article>
-                    <div class="card">
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                        <div class="protect-card">
-                            <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
-                            <div class="situation">
-                                보호중
-                            </div>
-                            <ol>
-                                <li class="l-text">
-                                    <a href="#">[강아지] 푸들 | 3살</a>
-                                    <br>
-                                    <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
-                                    여아 · 중성화 알 수 없음
-                                </li>
-                            </ol>
-                            <div class="d-text">
-                                지역 : 경상북도 구미시
-                            </div>
-                        </div>
-                </article>
-            </section>
-        </div>
-        
+    <section>
+        <div class="filter">
+            <img class="f-icon" src="/images/free-icon-filter-3106781.png" alt="">
+            <div>필터</div>
 
         </div>
+        <div class="s-wrap-list">
+            <div class="s-wrap">
+                <select name="situa" id="situa">
+                    <optgroup label="상태" aria-checked="true"></optgroup>
+                    <option value="s1">전체</option>
+                    <option value="s2">보호</option>
+                    <option value="s3">공고</option>
+                </select>
+            </div>
+            <div class="s-wrap">
+                <select name="situa" id="situa">
+                    <optgroup label="상태" aria-checked="true"></optgroup>
+                    <option value="s1">전체</option>
+                    <option value="s2">보호</option>
+                    <option value="s3">공고</option>
+                </select>
+
+            </div>
+            <div class="s-wrap">
+                <select name="situa" id="situa">
+                    <optgroup label="상태" aria-checked="true"></optgroup>
+                    <option value="s1">전체</option>
+                    <option value="s2">보호</option>
+                    <option value="s3">공고</option>
+                </select>
+
+            </div>
+        </div>
+        <div class="ex">
+            <img src="https://dummyimage.com/24x24/000/fff" alt="">
+            <div class="sub-text-num">2,564</div>
+            <div> 마리의 아이들이 보호자를 기다리고 있어요.</div>
+        </div>
+        <article>
+            <div class="card">
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+                <div class="protect-card">
+                    <a href="#"></a><img class="picture" src="https://dummyimage.com/264x198/bdb7bd/0011ff" alt="">
+                    <div class="situation">
+                        보호중
+                    </div>
+                    <ol>
+                        <li class="l-text">
+                            <a href="#">[강아지] 푸들 | 3살</a>
+                            <br>
+                            <img src="https://dummyimage.com/8x7/bdb7bd/0011ff" alt="남아 · 중성화 미완료 · 1살 미만">
+                            여아 · 중성화 알 수 없음
+                        </li>
+                    </ol>
+                    <div class="d-text">
+                        지역 : 경상북도 구미시
+                    </div>
+                </div>
+        </article>
+    </section>
+    </div>
+    <div class="num-list">
+        <div>
+            <a href="#basic"><img class="num-icon" src="/images/free-icon-left-arrow-line-symbol-54321.png" alt=""></a>
+        </div>
+        <a href="#basic">
+            <div class="num">1</div>
+        </a>
+        <a href="#basic">
+            <div class="num">2</div>
+        </a>
+        <a href="#basic">
+            <div class="num">3</div>
+        </a>
+        <a href="#basic">
+            <div class="num">...</div>
+        </a>
+        <div>
+            <a href="#basic"><img class="num-icon" src="/images/free-icon-chevron-6367846.png" alt=""></a>
+        </div>
+
+    </div>
+
+    </div>
     <footer>
         <div class="footer">
             <div class="link-container">
@@ -317,13 +337,6 @@
             </div>
         </div>
     </footer>
-    <script>
-        document.getElementById("situa").addEventListener("click", function() {
-    var select = this;
-    var arrow = select.nextElementSibling;
-    arrow.classList.toggle("down-arrow"); // 아래 화살표 스타일 클래스 추가 및 제거
-});
-    </script>
 </body>
 
 </html>
