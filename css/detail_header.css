@@ -1,36 +1,106 @@
 body div .top-protect{
-    display: inline-block;
-    width: 288px;
-    text-align: center;
-    padding: 0.9rem 8rem;
-    background-color: antiquewhite;
-    font-size: 13px;
-    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    gap: 20px;
+}
+.top-protect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
 }
 .sub-protect{
-    width: 1024px;
-}
-.con1{
-    display: block;
-    width: 992px;
-    padding: 20px 0;
-    border: 1px solid black;
+    padding: 0.9rem 8rem;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
 }
 .picture2{
-    float: left;
+    display: flex;
+    justify-content: center;
 }
-.con1-subtext{
+.con-list{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 0.9rem 1rem;
+    background-color: yellow;
+}
+.con-list div{
+    width: 100%;
+    margin-left: 20px;
+}
+h3{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tag{
+    width: 10%;
+    height: 9%;
+    font-size: 11px;
+    text-align: center;
+    padding: 0.25rem 0;
+    background-color: burlywood;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+article{
+    display: flex;
+
+}
+.link:hover{
+    color: rgb(226, 201, 117);
+}
+.con1 a{
+    text-decoration: none;
+    color: black;
+}
+.con1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 992px;
+    padding: 20px 0;
+    margin-left: 20px;
+}
+.con1-subtext:not(:first-child){
     width: 700px;
     
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    justify-content: center;
 }
 .picture1{
-    float: right;
+    /* float: right; */
+    border-radius: 13px;
+    margin-left: 20px;
 }
 article div{
     width: 726px;
-
-
+}
+.link a:hover{
+    color: rgb(238, 182, 99);
+}
+.link{
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+.content{
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(201, 201, 201);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+.con1 .picture1{
+    width: 100%;
 }

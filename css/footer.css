@@ -1,9 +1,8 @@
 
 footer > div .icon{
     float: left;
-    padding: 8px;
+    box-shadow: 2px 2px 5px #ccc;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px #ccc;
 }
 footer > div {
     display: inline-block;
@@ -16,6 +15,7 @@ footer > div {
     justify-content: space-between;
 }
 .links a {
+    font-size: 11px;
     margin-right: 20px; /* 링크 간격 조정 */
     text-decoration: none;
     color: #333; /* 링크 색상 설정 */
@@ -23,9 +23,8 @@ footer > div {
 .icons {
     display: flex;
     align-items: center;
-}
-.icons {
     margin-right: 40px;
+    gap: 17px;
 }
 .footer{
     width: 100%;

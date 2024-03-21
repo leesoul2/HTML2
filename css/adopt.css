@@ -75,9 +75,6 @@ section{
     border-radius: 10px;
     cursor: pointer;
 }
-.filter:active{
-
-}
 .filter div{
     font-size: 20px;
 }
@@ -89,6 +86,7 @@ section{
     margin-bottom: 50px;
 }
 .protect-card{
+
     border-radius: 15px;
     box-shadow: 3px 3px 5px #ccc;
 }
@@ -98,8 +96,9 @@ section{
     text-align: center;
 }
 .l-text{
+    line-height: 24px;
     font-size: 11px; 
-    margin: 10px;   
+    margin: 0 10px 10px;   
     font-weight: bold;
 }
 .d-text{
@@ -121,9 +120,8 @@ section{
     
 } 
 article{
-    display: flex;
-    align-items: center;
-    padding: 20px 0.4rem;
+    padding: 0 24px;
+    margin: 0 auto;
 }
 article img{
     flex: 0 0 auto;
@@ -149,9 +147,12 @@ div .f-icon{
     box-shadow: 2px 1px 2px #8e8d8d;
     border-radius: 15px;
 }
-.s-wrap-list{
-    display: flex;
+.s-wrap{
+    display: none;
     padding: 8px 0;
+}
+.s-wrap{
+    display: inline-block;
 }
 .s-wrap select{
     padding: 8px;
@@ -163,5 +164,43 @@ div .f-icon{
 .ex{
     display: flex;
     gap: 5px;
+}
+.num-list{
+    display:flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 70px auto 0;
+}
+.num{
+    display:flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(185, 169, 115);
+    border-radius: 50%;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 60px;
+}
+.num:active{
+    background-color: rgb(185, 169, 115);
+}
+div .num-icon{
+    display:flex;
+    width: 10x;
+    height: 10px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+.num-list a{
+    text-decoration: none;
+    color: #333;
 }
 
